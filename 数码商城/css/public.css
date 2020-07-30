@@ -1,0 +1,160 @@
+*{
+		margin: 0;
+		padding: 0;
+		te
+	}
+	.header{
+		width: 100%;
+		height: 120px;
+		/*border: 1px solid;*/
+		/*text-align: center;*/
+		background: #ff6900;
+	}
+	.header .daohang{
+		margin: 0 auto;
+		width: 1200px;
+		height: 120px;
+		
+		border: 1px solid #FF6700;
+		border-bottom: 1px solid white;
+	}
+	.header .daohang .logo{
+		float: left;
+		width: 200px;
+		height: 120px;
+		/*border: 1px solid;*/
+		/*line-height: 120px;*/
+		text-align: center;
+	}
+	.header .logo img{
+		width: 50%;height: 50%;
+	}
+	li{
+		/*width: 60px;*/
+		list-style: none;
+	}
+	.nav{
+		/*float: left;*/
+		
+		width: 600px;height: 50px;
+		margin: 50px auto;
+		/*border: 1px solid red;*/
+		font-size: 18px;
+		/*color: white;*/
+		margin-left: 400px;
+	}
+	.nav .fir_nav>li{
+		width: 60px;
+		text-align: center;
+		position: relative;
+		float: left;
+		line-height: 50px;
+		padding: 0 30px;
+		
+	}
+	.nav .fir_nav>li a{
+		color: white;
+	}
+	 .nav .fir_nav .sec_nav{
+	 	
+		 position: absolute;
+		 left: 0;
+		 top: 50px;
+		 background: white;
+		 display: none;
+	 }
+	 .nav .fir_nav  ul{
+	 	position: fixed;
+		z-index: 1000;
+	 }
+	.nav .fir_nav .sec_nav li{
+		
+		width: 60px;
+		text-align: center;
+		position: relative;
+		float: left;
+		line-height: 50px;
+		padding: 0 30px;
+		/*width: 60px;*/
+		
+		
+		border-top: 1px solid;
+		background: #FF6700;
+		padding: 0 30px;
+		font-size: 14px;
+	}
+	a{
+		color: #333;
+		text-decoration: none;
+	}
+	a:hover{
+		/*color: #ff6700;*/
+	}
+	
+	.content{
+	width: 1200px;height: 600px;
+	margin: auto;
+	margin-top: 10px;
+	/*border-top: 1px solid red;*/
+	/*border-bottom: 1px solid red;*/
+	}
+	.content .left{
+		float: left;
+		width: 200px;height: 600px;
+		background: #FAFAFA;
+	}
+	.content .left li{
+		line-height: 54px;
+		width: 200px;
+		/*background: blue;*/
+		text-indent: 58px;
+	}
+	.content .left .current{
+		background: #FF6700;
+		color: white;
+	}
+	.content .left li:hover{
+		background: #FF6700;
+		color: white;
+	}
+	.content .left a:hover{
+		/*color: white;*/
+	}
+	.content .left .current a{
+		color: white;
+	}
+	
+	.content .left  span{
+		float: right;
+		padding-right: 10px;
+		font-weight: bold;
+	}
+	
+	#slide{
+	position:absolute;
+	height:300px;
+	width:200px;
+	color:#FA8E93;
+	overflow:hidden;
+	border:1px solid #ccc;
+	}
+	#slide p{
+		height:34px;
+		line-height:34px;
+		overflow:hidden;
+		}
+	#slide span{
+		float:right;
+		}
+		
+.footer{
+		width: 100%;
+		height: 78px;
+		margin-top: 10px;
+		background: #FF6700;
+	}
+	.footer p{
+	text-align: center;
+	font-size: 12px;
+	padding-top: 16px;
+}
